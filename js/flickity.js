@@ -1,3 +1,5 @@
+window = window || {}
+
 // Flickity main
 ( function( window, factory ) {
   // universal module definition
