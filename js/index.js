@@ -9,7 +9,7 @@
  * Copyright 2017 Metafizzy
  */
 
-( function( window, factory ) {
+( function( factory ) {
   // universal module definition
   /* jshint strict: false */
   if ( typeof define == 'function' && define.amd ) {
@@ -36,7 +36,7 @@
     );
   }
 
-})( window, function factory( Flickity ) {
+})( function factory( Flickity ) {
   /*jshint strict: false*/
   return Flickity;
 });
